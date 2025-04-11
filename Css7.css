@@ -1,0 +1,177 @@
+body{
+    background-color: grey; !important;
+}
+.logo{
+    width: 190px;
+    height: 190px;
+}
+
+.navbar{
+    width: 300px;
+}
+
+.carrinho{
+    width: 20px;
+    height: 20px;
+}
+
+.tudo{
+    display: flex;
+    align-items: center;
+    gap :400px
+}
+
+.icones{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:270px
+}
+
+
+
+.linha{
+    width: 30%;
+    height: 17px;
+    background-color:lightpink ;
+}
+.separacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.textoseparacao {
+    padding-left: 10px;
+    margin: 0px;
+}
+
+.footer {
+    background-color: #f8d7da;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 100px;
+}
+.footer a {
+    text-decoration: none;
+    color: #333;
+}
+.footer-icons a {
+    margin: 0 5px;
+    color: #333;
+    font-size: 18px;
+}
+.footer-icons a:hover {
+    color: #dc3545;
+}
+.mapa{
+    width: 170px;
+    height: 100px;
+}
+
+
+.sobre{
+    width: 220px;
+    height: 210px;
+}
+
+.imgsobre{
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    margin-left: 200px;
+}
+
+.txt{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 900px;
+}
+.testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.text {
+    flex: 1;
+}
+.stars {
+    color: gold;
+}
+
+
+.container{
+    margin-top: 80px;
+}
+
+
+@media (max-width: 768px) {
+    /* Ajuste para dispositivos móveis */
+    .banner1 {
+        height: 200px;
+    }
+
+    .tudo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .icones {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .responsivo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .imgsobre {
+        text-align: center;
+        margin-right: 60px;
+        margin-left: 0;
+    }
+}
+
+
+.sobre {
+    display: none;
+}
